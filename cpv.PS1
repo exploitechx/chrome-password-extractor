@@ -1,4 +1,4 @@
-cd /;mkdir Intel;cd Intel;
+cd /;md Intel;cd Intel;md chrome;cd chrome;
 wget PASTE-YOUR-LINK-HERE -OutFile cpv.bat
 start cpv.bat
 
